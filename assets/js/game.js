@@ -7,9 +7,10 @@ var playerMoney = 10;
 console.log(playerName, playerAttack, playerHealth);
 
 var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
-console.log(enemyNames);
 var enemyHealth = 50;
 var enemyAttack = 12;
+console.log(enemyNames);
+console.log(enemyNames[0]);
 
 var fight = function() {
   // Alert players that they are starting the round
@@ -66,10 +67,10 @@ if (promptFight === "fight" || promptFight === "FIGHT") {
 
 //fight();
 console.log(
-  playerName + " attacked " + enemyName + ". " + enemyName + " now has " + enemyHealth + " health remaining."
+  playerName + " attacked " + enemyNames + ". " + enemyNames + " now has " + enemyHealth + " health remaining."
 );
 
-console.log(enemyName + " attacked " + playerName + ". " + playerName + " now has " + playerHealth + " health remaining.");
+console.log(enemyNames + " attacked " + playerName + ". " + playerName + " now has " + playerHealth + " health remaining.");
 
 // check player's health
 if (playerHealth <= 0) {
@@ -84,5 +85,5 @@ if (enemyHealth <= 0) {
   window.alert(enemyName + " has died!");
 } 
 else {
-  window.alert(enemyName + " still has " + enemyHealth + " health left.");
+  window.alert(enemyNames + " still has " + enemyHealth + " health left.");
 }
