@@ -11,6 +11,9 @@ var enemyHealth = 50;
 var enemyAttack = 12;
 console.log(enemyNames);
 console.log(enemyNames.length);
+for(var i = 0; i < 3; i++) {
+  console.log("apple");
+}
 
 var fight = function() {
   // Alert players that they are starting the round
