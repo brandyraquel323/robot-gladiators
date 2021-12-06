@@ -10,7 +10,7 @@ var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
 console.log(enemyNames);
-console.log(enemyNames[0]);
+console.log(enemyNames.length);
 
 var fight = function() {
   // Alert players that they are starting the round
