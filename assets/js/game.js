@@ -12,7 +12,9 @@ var enemyAttack = 12;
 
 console.log(enemyNames);
 console.log(enemyNames.length);
-console.log(enemyNames[0]);
+for(var i = 0; i < 3; i++) {
+  console.log("apple");
+}
 
 
 
